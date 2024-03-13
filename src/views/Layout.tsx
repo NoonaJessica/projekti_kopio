@@ -10,7 +10,7 @@ const Layout = () => {
 
   return (
     <>
-      <header>
+      <header className='navbar'>
         <nav>
           <ul className="flex justify-end bg-sky-700">
             <li>
@@ -61,7 +61,7 @@ const Layout = () => {
           </ul>
         </nav>
       </header>
-      <main className="p-4">
+      <main className="p-4 mainpage">
         <Outlet />
       </main>
       <footer className="flex justify-end footer p-4">

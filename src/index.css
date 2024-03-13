@@ -45,5 +45,15 @@
   transition: all 0.3s ease;
 }
 
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 84%;
+}
+
+.mainpage{
+  margin-top: 4%;
+}
+
 
 
