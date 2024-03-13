@@ -7,9 +7,16 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --white: #DCF2F1;
+  --lightblue:  #7FC7D9;
+  --blue:   #365486;
+  --darkblue:   #0F1035;
+  --yellow: #FFD54F;
+
   color-scheme: light dark;
-  color: #f0f9ff;
-  background-color: #0c4a6e;
+  color: #333;
+  background-color: #DCF2F1;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,9 +27,21 @@
   margin: auto;
 }
 
-.title{
-  width: 100%;
-  margin-right: 700px;
-  font-weight: 500;
+.blocks{
+  margin: auto;
+}
 
+.footer{
+  background-color: #0F1035;
+  color: var(--white);
+}
+
+.view-button{
+  background-color: var(--lightblue);
+  color: var(--blue);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }

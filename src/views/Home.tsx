@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <>
-      <table>
+      <table className='blocks'>
         <thead>
           <tr>
           <th className="px-10 ">Image</th>

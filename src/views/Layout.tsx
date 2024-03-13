@@ -13,11 +13,6 @@ const Layout = () => {
       <header>
         <nav>
           <ul className="flex justify-end bg-sky-700">
-
-
-          <li>
-          <h1  className=" title p-4">Photo upload app</h1>
-          </li>
             <li>
               <Link
                 className="block p-4 text-center text-slate-50 hover:bg-sky-800"
@@ -69,7 +64,7 @@ const Layout = () => {
       <main className="p-4">
         <Outlet />
       </main>
-      <footer className="flex justify-end bg-sky-700 p-4">
+      <footer className="flex justify-end footer p-4">
         <p>Copyright 2024 - NN</p>
       </footer>
     </>

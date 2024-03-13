@@ -2,7 +2,10 @@
 
 Open [this link in browser](https://users.metropolia.fi/~nooname/react-graphql/) to see the app in action.
 
+
 ---
+
+## käytetty tuotriaali (https://codepen.io/madvic/pen/ExPxGpB)
 
 ## React + TypeScript + Vite
 

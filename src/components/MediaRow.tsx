@@ -2,6 +2,8 @@ import {Link} from 'react-router-dom';
 import {MediaItemWithOwner} from '../types/DBTypes';
 import {useUpdateContext, useUserContext} from '../hooks/ContextHooks';
 import {useMedia} from '../hooks/graphQLHooks';
+import Likes from './Likes';
+
 
 const MediaRow = (props: {item: MediaItemWithOwner}) => {
   const {item} = props;
@@ -40,7 +42,7 @@ const MediaRow = (props: {item: MediaItemWithOwner}) => {
       <td className="">
         <div className="flex flex-col">
           <Link
-            className="bg-sky-700 p-2 text-center hover:bg-sky-600"
+            className="bg-sky-700 p-2 text-center hover:bg-sky-600 view-button"
             to="/single"
             state={item}
           >
@@ -65,6 +67,8 @@ const MediaRow = (props: {item: MediaItemWithOwner}) => {
             )}
         </div>
         <p>Comments: {item.comments_count}</p>
+        <Likes item={item} />
+
       </td>
     </tr>
   );
