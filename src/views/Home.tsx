@@ -19,8 +19,8 @@ const Home = () => {
       <table className='blocks'>
         <thead>
           <tr>
-          <th className="px-10 ">Image</th>
-          <th className="w-1/3">Actions</th>
+          <th className="px-10 "></th>
+          <th className="w-1/3"></th>
 
           </tr>
         </thead>

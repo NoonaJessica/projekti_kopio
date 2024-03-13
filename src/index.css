@@ -39,9 +39,11 @@
 .view-button{
   background-color: var(--lightblue);
   color: var(--blue);
-  padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+
+

@@ -101,13 +101,26 @@ const Likes = ({item}: {item: MediaItemWithOwner}) => {
     <>
       Like count: {likeState.count}
       <button
-        className="bg-slate-700 p-2 hover:bg-slate-950"
+
         onClick={handleLike}
       >
-        {likeState.userLike ? 'Unlike' : 'Like'}
+        {likeState.userLike ?
+              <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                  <path id="heart" d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" fill="#FF0000"/>
+                </g>
+              </svg>
+        :
+               <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
+                <g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)">
+                <path id="heart" d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" fill="#AAB8C2"/>
+                </g>
+                </svg>}
       </button>
     </>
   );
 };
 
 export default Likes;
+
+
