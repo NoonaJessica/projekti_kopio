@@ -68,6 +68,7 @@ const MediaRow = (props: {item: MediaItemWithOwner}) => {
         </div>
         <Likes item={item} />
         <p>Comments: {item.comments_count}</p>
+        <p className=""> Posted by: {item.owner.username}</p>
 
 
 

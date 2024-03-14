@@ -64,8 +64,8 @@ const Layout = () => {
       <main className="p-4 mainpage">
         <Outlet />
       </main>
-      <footer className="flex justify-end footer p-4">
-        <p>Copyright 2024 - NN</p>
+      <footer className="flex justify-end footer p-4 ">
+        <p className='text-slate-50'>Copyright 2024 - NN</p>
       </footer>
     </>
   );

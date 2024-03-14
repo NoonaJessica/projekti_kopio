@@ -7,16 +7,16 @@
   line-height: 1.5;
   font-weight: 400;
 
-  --white: #DCF2F1;
+  --offwhite: #DCF2F1;
   --lightblue:  #7FC7D9;
   --blue:   #365486;
   --darkblue:   #0F1035;
   --yellow: #FFD54F;
+  --red: #FF6B6B;
 
   color-scheme: light dark;
   color: #333;
   background-color: #fff;
-
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -42,30 +42,29 @@
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-bottom: 5px;
 }
 
 .view-button{
   background-color: var(--lightblue);
   color: var(--darkblue);
+  margin-bottom: 5px;
 }
 
 .mody-button{
   background-color: var(--yellow);
   color: var(--darkblue);
+  margin-bottom: 5px;
 }
 
 .delete-button{
-  background-color: #FF6B6B;
+  background-color: var(--red);
   color: var(--darkblue);
 }
-
-
 
 .navbar{
   position: fixed;
   top: 0;
-  width: 175vh;
+  width: 84%;
 }
 
 .mainpage{
@@ -76,5 +75,17 @@
   margin-bottom: 70vh;
 }
 
+
+@media screen and (max-width: 1299px){
+  .navbar{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 899px){
+  .mainpage{
+    margin-top: 8%;
+  }
+}
 
 

@@ -3,7 +3,11 @@
   overflow: visible;
   width: 60px;
   padding: 5px;
-  margin-bottom: -20px;
+  margin-bottom: -25px;
+}
+
+#heart:hover{
+  fill:var(--red);
 }
 
 svg #heart {
