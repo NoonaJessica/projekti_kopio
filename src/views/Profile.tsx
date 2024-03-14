@@ -13,6 +13,7 @@ const Profile = () => {
           <p>Username: {user.username}</p>
           <p>Email: {user.email}</p>
           <p>Created: {new Date(user.created_at).toLocaleString('fi-FI')}</p>
+          <div className='profile-gap'></div>
 
 
         </>

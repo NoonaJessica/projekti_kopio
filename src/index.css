@@ -15,7 +15,7 @@
 
   color-scheme: light dark;
   color: #333;
-  background-color: #DCF2F1;
+  background-color: #fff;
 
 
   font-synthesis: none;
@@ -36,23 +36,44 @@
   color: var(--white);
 }
 
-.view-button{
-  background-color: var(--lightblue);
-  color: var(--blue);
+.button{
+  text-align: center;
   border-radius: 5px;
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-bottom: 5px;
 }
+
+.view-button{
+  background-color: var(--lightblue);
+  color: var(--darkblue);
+}
+
+.mody-button{
+  background-color: var(--yellow);
+  color: var(--darkblue);
+}
+
+.delete-button{
+  background-color: #FF6B6B;
+  color: var(--darkblue);
+}
+
+
 
 .navbar{
   position: fixed;
   top: 0;
-  width: 84%;
+  width: 175vh;
 }
 
 .mainpage{
   margin-top: 4%;
+}
+
+.profile-gap{
+  margin-bottom: 70vh;
 }
 
 

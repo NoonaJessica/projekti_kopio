@@ -41,7 +41,7 @@ const Layout = () => {
                 </li>
                 <li>
                   <Link
-                    className="block p-4 text-center text-slate-50 hover:bg-sky-800"
+                    className="block p-4 text-center text-slate-50 bg-red-500 hover:bg-red-600"
                     to="/logout"
                   >
                     Logout
@@ -51,7 +51,7 @@ const Layout = () => {
             ) : (
               <li>
                 <Link
-                  className="block p-4 text-center text-slate-50 hover:bg-sky-800"
+                  className="block p-4 text-center text-slate-50 bg-yellow-400 hover:bg-yellow-500"
                   to="/login"
                 >
                   Login

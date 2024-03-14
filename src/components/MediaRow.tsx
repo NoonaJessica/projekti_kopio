@@ -42,7 +42,7 @@ const MediaRow = (props: {item: MediaItemWithOwner}) => {
       <td className="">
         <div className="flex flex-col">
           <Link
-            className="bg-sky-700 p-2 text-center hover:bg-sky-600 view-button"
+            className=" button view-button p-1"
             to="/single"
             state={item}
           >
@@ -52,13 +52,13 @@ const MediaRow = (props: {item: MediaItemWithOwner}) => {
             (user.user_id === item.user_id || user.level_name === 'Admin') && (
               <>
                 <button
-                  className="bg-green-700 p-2 hover:bg-green-600"
+                  className="button mody-button p-1"
                   onClick={() => console.log('modify', item)}
                 >
                   Modify
                 </button>
                 <button
-                  className="bg-rose-500 p-2 hover:bg-rose-400"
+                  className="button delete-button p-1"
                   onClick={deleteHandler}
                 >
                   Delete

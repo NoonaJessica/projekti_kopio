@@ -54,7 +54,7 @@ const Upload = () => {
             Title
           </label>
           <input
-            className="m-3 w-2/3 rounded-md border border-slate-500 p-3 text-slate-950"
+            className="m-3 w-2/3 rounded-md border border-slate-200 p-3 text-slate-950 bg-slate-300"
             name="title"
             type="text"
             id="title"
@@ -66,7 +66,7 @@ const Upload = () => {
             Description
           </label>
           <textarea
-            className="m-3 w-2/3  rounded-md border border-slate-500 p-3 text-slate-950"
+            className="m-3 w-2/3  rounded-md border border-slate-200 p-3 text-slate-950 bg-slate-300"
             name="description"
             rows={5}
             id="description"
@@ -78,7 +78,7 @@ const Upload = () => {
             File
           </label>
           <input
-            className="m-3 w-2/3 rounded-md border border-slate-500 p-3 text-slate-50"
+            className="m-3 w-2/3 rounded-md border border-slate-500 p-3 text-slate-950"
             name="file"
             type="file"
             id="file"
@@ -100,7 +100,7 @@ const Upload = () => {
         </div>
         <div className="flex w-4/5 justify-end">
           <button
-            className="m-3 w-1/3 rounded-md bg-slate-600 p-3 disabled:text-slate-600"
+            className="m-3 w-1/3 rounded-md bg-yellow-300 p-3 disabled:text-slate-950"
             type="submit"
             disabled={file && inputs.title.length > 3 ? false : true}
           >

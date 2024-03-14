@@ -61,7 +61,7 @@ const Comments = ({item}: {item: MediaItemWithOwner}) => {
                 Comment
               </label>
               <input
-                className="m-3 w-2/3 rounded-md border border-slate-500 p-3 text-slate-950"
+                className="m-3 w-2/3 rounded-md border border-slate-100 bg-slate-300 p-3 text-slate-950"
                 name="comment_text"
                 type="text"
                 id="comment"
@@ -70,7 +70,7 @@ const Comments = ({item}: {item: MediaItemWithOwner}) => {
             </div>
             <div className="flex w-4/5 justify-end">
               <button
-                className="m-3 w-1/3 rounded-md bg-slate-700 p-3"
+                className="m-3 w-1/3 rounded-md bg-yellow-300 p-3"
                 type="submit"
               >
                 Post
@@ -85,12 +85,12 @@ const Comments = ({item}: {item: MediaItemWithOwner}) => {
           <ul>
             {comments.map((comment) => (
               <li key={comment.comment_id}>
-                <div className="rounded-md border border-slate-200 bg-slate-800 p-3 text-slate-100">
-                  <span className="font-bold text-slate-200">
+                <div className="rounded-md border border-rose-200 bg-rose-100 p-3 text-slate-950">
+                  <span className="font-bold text-slate-950">
                     On{' '}
                     {new Date(comment.created_at!).toLocaleDateString('fi-FI')}{' '}
                   </span>
-                  <span className="font-bold text-slate-200">
+                  <span className="font-bold text-slate-950">
                     {comment.username} wrote:
                   </span>
                   <span className="ml-2">{comment.comment_text}</span>

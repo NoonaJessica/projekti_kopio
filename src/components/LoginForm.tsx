@@ -25,7 +25,7 @@ const LoginForm = () => {
             Username
           </label>
           <input
-            className="m-3 w-2/3 rounded-md border border-slate-500 p-3 text-slate-950"
+            className="m-3 w-2/3 rounded-md border border-slate-100 p-3 text-slate-950 bg-slate-300"
             name="username"
             type="text"
             id="UserWithLevelname"
@@ -38,7 +38,7 @@ const LoginForm = () => {
             Password
           </label>
           <input
-            className="m-3 w-2/3 rounded-md border border-slate-500 p-3 text-slate-950"
+            className="m-3 w-2/3 rounded-md border border-slate-100 p-3 text-slate-950 bg-slate-300"
             name="password"
             type="password"
             id="loginpassword"
@@ -48,7 +48,7 @@ const LoginForm = () => {
         </div>
         <div className="flex w-4/5 justify-end">
           <button
-            className="m-3 w-1/3 rounded-md bg-slate-700 p-3"
+            className="m-3 w-1/3 rounded-md bg-yellow-300 p-3"
             type="submit"
           >
             Login
