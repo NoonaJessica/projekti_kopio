@@ -1,6 +1,32 @@
 # Hybrid Apps - React example
 
-Open [this link in browser](https://users.metropolia.fi/~nooname/react-graphql/) to see the app in action.
+Open [this link in browser](https://users.metropolia.fi/~nooname/react-projekti/) to see the app in action.
+HUOM! täytyy olla koulun verkossa!
+
+tunnukset: ilkan tunnukset mitä tunnilla käytettiin tai tee oma.
+
+käytetty open plavelinta
+VITE_UPLOAD_SERVER=https://10.120.32.94/upload/api/v1
+VITE_MEDIA_API=https://10.120.32.94/media-api/api/v1
+VITE_AUTH_API=https://10.120.32.94/auth-api/api/v1
+VITE_GRAPHQL_API=https://10.120.32.94/graphql-api/graphql
+
+toteutettu:
+minivaatimukset
+ammattimainen ulkoasu
+lisäsin home sivulle tykkäys napin
+käytetty osittain Tailwind ja omia css sääntöjä
+nimetty loogisesti 
+sisennykset ja risitykset kunnossa.
+
+
+
+
+
+
+
+
+
 
 ---
 
